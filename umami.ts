@@ -33,7 +33,7 @@ const Umami = {
         try {
           await run();
         } catch (e) {
-          logger.error(e);
+          console.error(e);
         }
       }
       sending = false;
