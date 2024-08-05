@@ -1,5 +1,4 @@
 import os from "node:os";
-import {logger} from "./logger";
 import {Context, version} from "koishi";
 import packageJson from "../package.json"
 
